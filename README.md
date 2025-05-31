@@ -8,14 +8,13 @@ Additionally, the project includes a **blinking LED** feature on **RA0/AN0**, ma
 
 ## ⚙️ Project Features
 
-- ✅ Lightweight OLED library (no external dependencies)
-- ✅ Bit-bang I²C (software implementation)
-- ✅ Supports `printChar()`, `printString()`, `printNumber()`
-- ✅ 0.92" SSD1306 128x64 OLED support
-- ✅ LED blinking on `RA0/AN0`
+- 🧠 Optimized for **PIC16F72** running at **12 MHz**
+- 📟 Supports 0.92" **128x64 SSD1306 OLED** display
+- ✏️ Functions to print **characters**, **strings**, and **numbers**
+- 🧵 **Bit-bang I²C** implementation (no hardware I2C needed)
+- 💡 **Blinking LED** on pin **RA0/AN0**
+- 🪶 Very lightweight and ideal for resource-limited microcontrollers
 - ✅ Optimized for 12 MHz system clock
-- ✅ Clean and readable C code
-
 ---
 
 ## 🧠 Microcontroller Info
@@ -56,3 +55,37 @@ Example:
 ```c
 oled_printString("Temp:", 0, 0);
 oled_printNumber(25, 40, 0);
+
+
+
+---
+
+## 📷 Images
+
+Below are some images of the working setup and prototype:
+
+| Image | Description |
+|-------|-------------|
+| ![WA0002](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/blob/main/images/WA0002.jpg) | Diy Board on breadboard |
+| ![WA0003](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/blob/main/images/WA0003.jpg) | Oled Display |
+| ![WA0004](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/blob/main/images/WA0004.jpg) | Oled Display |
+| ![WA0005](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/blob/main/images/WA0005.jpg) | String example |
+| ![WA0006](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/blob/main/images/WA0006.jpg) | String and number example |
+
+> 🔗 More images available in the [Images folder](https://github.com/DRIFTYY777/WS2812B-ATmega8A/tree/main/images)
+
+---
+
+## 📐 Schematic
+
+You can find the circuit schematic below:
+
+📄 [Schematic_PIC16F72](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/blob/main/schematic/Schematic_PIC16F72.png)
+
+> 🗂 Full schematic files are available in the [schematic folder](https://github.com/DRIFTYY777/WS2812B-ATmega8A/tree/main/schematic)
+
+---
+
+
+
+
