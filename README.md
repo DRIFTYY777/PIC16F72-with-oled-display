@@ -55,8 +55,7 @@ Example:
 ```c
 oled_printString("Temp:", 0, 0);
 oled_printNumber(25, 40, 0);
-
-
+```
 
 ---
 
@@ -82,7 +81,7 @@ You can find the circuit schematic below:
 
 📄 [Schematic_PIC16F72](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/blob/main/schematic/Schematic_PIC16F72.png)
 
-> 🗂 Full schematic files are available in the [schematic folder](https://github.com/DRIFTYY777/WS2812B-ATmega8A/tree/main/schematic)
+> 🗂 Full schematic files are available in the [schematic folder](https://github.com/DRIFTYY777/PIC16F72-with-oled-display/tree/main/schematic)
 
 ---
 
