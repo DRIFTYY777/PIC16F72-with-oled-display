@@ -6,10 +6,10 @@ Linker command line:
   --edf=C:\Program Files\Microchip\xc8\v3.00\pic\dat\20241204225717_en.msgs \
   -cn -h+dist/default/production\oled.X.production.sym \
   --cmf=dist/default/production\oled.X.production.cmf -z -Q16F72 \
-  -oC:\Users\dhima\AppData\Local\Temp\xcAsc6g.\driver_tmp_3.o \
+  -oC:\Users\dhima\AppData\Local\Temp\xcAsgeo.\driver_tmp_3.o \
   --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
   -Mdist/default/production/oled.X.production.map \
-  --md=C:\Users\dhima\AppData\Local\Temp\xcAsc6g.\driver_tmp_0.dat -E1 \
+  --md=C:\Users\dhima\AppData\Local\Temp\xcAsgeo.\driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler -ACODE=00h-07FFh -ASTRCODE=00h-07FFh \
   -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 \
   -ACOMMON=040h-07Fh -ABANK0=020h-03Fh -ABANK1=0A0h-0BFh \
@@ -19,7 +19,7 @@ Linker command line:
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry,sivt,init,end_init -ppowerup=CODE -pcinit=CODE \
   -pfunctab=ENTRY -k \
-  C:\Users\dhima\AppData\Local\Temp\xcAsc6g.\driver_tmp_9.o \
+  C:\Users\dhima\AppData\Local\Temp\xcAsgeo.\driver_tmp_9.o \
   dist/default/production\oled.X.production.o 
 
 Object code version is 3.11
@@ -29,7 +29,7 @@ Machine type is 16F72
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\dhima\AppData\Local\Temp\xcAsc6g.\driver_tmp_9.o
+C:\Users\dhima\AppData\Local\Temp\xcAsgeo.\driver_tmp_9.o
                 end_init                              0        0        1        0       0
                 config                             2007     2007        1        0       4
 dist/default/production\oled.X.production.o
